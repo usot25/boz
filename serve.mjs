@@ -17,6 +17,8 @@ const TYPES = {
   '.woff2': 'font/woff2',
 };
 
+// new updates for redeployment
+
 async function resolve(urlPath) {
   const clean = normalize(decodeURIComponent(urlPath.split('?')[0])).replace(/^(\.\.[/\\])+/, '');
   const candidates = extname(clean)
